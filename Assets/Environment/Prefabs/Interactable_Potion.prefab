@@ -58,8 +58,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Message
-      value: Oh, boy. I can't wait to take a sip of this potion! I wonder what flavor
-        it is.
+      value: '`1Oh, boy. I can''t wait to take a sip of this potion! I wonder what
+        flavor it is.'
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: _collider

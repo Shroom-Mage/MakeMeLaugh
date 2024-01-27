@@ -6,23 +6,26 @@ using UnityEngine;
 
 public class TextTypingBehavior : MonoBehaviour
 {
+    private MoodBehavior _mood;
+
+    [SerializeField]
+    private TextMeshProUGUI _text;
+    [SerializeField]
+    private AudioSource _voice;
+
     public float TypingDelay = 0.1f;
     public float PitchDeviation = 0.2f;
 
-    private TextMeshProUGUI _text;
-    private AudioSource _audioSource;
-    
     private string _message = "";
     private float _timer;
-    private int _char;
+    private int _char = -1;
 
     private const int COLUMNS = 33;
     private const int ROWS = 4;
 
     private void Awake()
     {
-        _text = GetComponent<TextMeshProUGUI>();
-        _audioSource = GetComponent<AudioSource>();
+        _mood = GetComponent<MoodBehavior>();
     }
 
     private void Update()
@@ -30,17 +33,33 @@ public class TextTypingBehavior : MonoBehaviour
         if (_text == null)
             return;
 
-        if (_timer <= 0.0f && _char < _message.Length && _message != "")
+        if (_timer <= 0.0f && _char >= 0 && _char < _message.Length && _message != "")
         {
-            if (_message[_char] != ' ' && _message[_char] != '.' && _message[_char] != ',' && _message[_char] != '!' && _message[_char] != '?' && _message[_char] != '\'' && _message[_char] != '\"' && _message[_char] != '*')
+            // Alter mood
+            if (_message[_char] ==  '`')
             {
-                _audioSource.pitch = 1 + Random.Range(-PitchDeviation, PitchDeviation);
-                _audioSource.Play();
+                _char++;
+                _mood.AlterMood(_message[_char] - '0');
+                _char++;
             }
 
+            // Play sound for letters
+            if (_message[_char] != ' ' && _message[_char] != '.' && _message[_char] != ',' && _message[_char] != '!' && _message[_char] != '?' && _message[_char] != '\'' && _message[_char] != '\"' && _message[_char] != '*')
+            {
+                _voice.pitch = 1 + Random.Range(-PitchDeviation, PitchDeviation);
+                _voice.Play();
+            }
+
+            // Print next character
             _text.text += _message[_char];
+
+            // Advance
             _timer = TypingDelay;
             _char++;
+        }
+        else if (_char == _message.Length)
+        {
+            _char = -1;
         }
 
         _timer -= Time.deltaTime;
