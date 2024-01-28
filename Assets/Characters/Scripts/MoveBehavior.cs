@@ -5,8 +5,10 @@ using UnityEngine.AI;
 
 public class MoveBehavior : MonoBehaviour
 {
-    // A reference to the NavMeshAgent to move
     private NavMeshAgent _agent;
+
+    [SerializeField]
+    private Animator _animator;
 
     private void Awake()
     {
@@ -28,5 +30,8 @@ public class MoveBehavior : MonoBehaviour
                 _agent.SetDestination(hit.point);
             }
         }
+
+        // Set animation
+        _animator.SetFloat("Movement", _agent.velocity.magnitude / _agent.speed);
     }
 }

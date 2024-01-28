@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf7aefaca6ceed42a01b31a86b16b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 844064405029692038}
 --- !u!195 &3021781252789587793
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -135,15 +136,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _portrait: {fileID: 0}
-  _neutral: {fileID: 21300000, guid: 324e145de7cce8d48b68cdf088a4c1d8, type: 3}
-  _happy: {fileID: 21300000, guid: f1e363e2c929da0419004ad85ade7e5d, type: 3}
-  _laughing: {fileID: 21300000, guid: 50991966fa7799743b9acab67ffce9d5, type: 3}
-  _overblown: {fileID: 21300000, guid: abe36a17f516e33429a5538b60e0f88d, type: 3}
-  _sad: {fileID: 21300000, guid: 3aa3b10ee6620204cb115de3aaf2cf33, type: 3}
-  _concerned: {fileID: 21300000, guid: 87ebb9623f87c0841b924a3835e40c60, type: 3}
-  _angry: {fileID: 21300000, guid: aa36b8a42b063f5428f01fd683446d83, type: 3}
-  _mad: {fileID: 21300000, guid: cfa69ecd406792044b4f6d5b789383e3, type: 3}
-  _empty: {fileID: 21300000, guid: aa0d8522ae39be54fb746b82c0187693, type: 3}
+  _neutralPortrait: {fileID: 21300000, guid: 324e145de7cce8d48b68cdf088a4c1d8, type: 3}
+  _happyPortrait: {fileID: 21300000, guid: f1e363e2c929da0419004ad85ade7e5d, type: 3}
+  _laughingPortrait: {fileID: 21300000, guid: 50991966fa7799743b9acab67ffce9d5, type: 3}
+  _overblownPortrait: {fileID: 21300000, guid: abe36a17f516e33429a5538b60e0f88d, type: 3}
+  _sadPortrait: {fileID: 21300000, guid: 3aa3b10ee6620204cb115de3aaf2cf33, type: 3}
+  _concernedPortrait: {fileID: 21300000, guid: 87ebb9623f87c0841b924a3835e40c60, type: 3}
+  _angryPortrait: {fileID: 21300000, guid: aa36b8a42b063f5428f01fd683446d83, type: 3}
+  _madPortrait: {fileID: 21300000, guid: cfa69ecd406792044b4f6d5b789383e3, type: 3}
+  _emptyPortrait: {fileID: 21300000, guid: aa0d8522ae39be54fb746b82c0187693, type: 3}
+  _mesh: {fileID: 4853761976113714099}
+  _neutralMaterial: {fileID: 2100000, guid: 229cceeb0b7415843a84903d1c4263c1, type: 2}
+  _happyMaterial: {fileID: 2100000, guid: f78509356aa8ace4bbdfa2d3c466e731, type: 2}
+  _sadMaterial: {fileID: 2100000, guid: 053e280426dd6cf418ba443575259bb8, type: 2}
+  _rageMaterial: {fileID: 2100000, guid: 617a6cef79a37f645b56941e96424036, type: 2}
+  _animator: {fileID: 844064405029692038}
   _bgm: {fileID: 6630269710621001990}
 --- !u!114 &5410101945953019621
 MonoBehaviour:
@@ -405,11 +412,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clown
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: da23077c4bb3f94448a7ef63dce55109, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a9444ba60e20bcf46a6a8d1d9516bbbb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da23077c4bb3f94448a7ef63dce55109, type: 3}
+--- !u!95 &844064405029692038 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: da23077c4bb3f94448a7ef63dce55109, type: 3}
+  m_PrefabInstance: {fileID: 6547158206430846743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &4853761976113714099 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7385855567579427676, guid: da23077c4bb3f94448a7ef63dce55109, type: 3}
+  m_PrefabInstance: {fileID: 6547158206430846743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6725726706816350460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da23077c4bb3f94448a7ef63dce55109, type: 3}

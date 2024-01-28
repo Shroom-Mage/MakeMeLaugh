@@ -46,7 +46,7 @@ public class TextTypingBehavior : MonoBehaviour
             // Play sound for letters
             if (_message[_char] != ' ' && _message[_char] != '\'' && _message[_char] != '\"' && _message[_char] != '*')
             {
-                _voice.pitch = 1 + Random.Range(-PitchDeviation, PitchDeviation);
+                _voice.pitch = 1.0f + Random.Range(-PitchDeviation, PitchDeviation) - (_mood.GetMood() >= 80 ? 0.5f : 0.0f);
                 _voice.Play();
             }
 
@@ -54,7 +54,7 @@ public class TextTypingBehavior : MonoBehaviour
             _text.text += _message[_char];
 
             // Advance
-            _timer = TypingDelay;
+            _timer = TypingDelay + (_mood.GetMood() >= 80 ? 0.15f : 0.0f);
             _char++;
         }
         else if (_char == _message.Length)
