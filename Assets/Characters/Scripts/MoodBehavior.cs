@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class MoodBehavior : MonoBehaviour
 {
+    [SerializeField]
+    private Animator _animator;
+
     // Portraits
     [SerializeField]
     private Image _portrait;
@@ -38,9 +41,6 @@ public class MoodBehavior : MonoBehaviour
     private Material _sadMaterial;
     [SerializeField]
     private Material _rageMaterial;
-
-    [SerializeField]
-    private Animator _animator;
 
     [SerializeField]
     private AudioSource _bgm;

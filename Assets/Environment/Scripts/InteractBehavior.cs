@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class InteractBehavior : MonoBehaviour
 {
-    [SerializeField]
-    private Collider _collider;
-
     public TextTypingBehavior TextTyping;
 
-    public string Message;
+    public string[] Messages;
+    private int _messageIndex = 0;
+
+    public bool IsMultiUse = true;
+    public bool HideAfterUse = false;
+
+    [SerializeField]
+    private AudioSource _audioSource;
+
+    private bool _isUsed = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        TextTyping.BeginTyping(Message);
+        if (!IsMultiUse && _isUsed)
+            return;
+
+        TextTyping.BeginTyping(Messages[_messageIndex], _audioSource);
+        if (_messageIndex < Messages.Length - 1)
+        {
+            _messageIndex++;
+        }
+        else
+        {
+            _isUsed = true;
+            if (HideAfterUse)
+            {
+                GetComponentInChildren<MeshRenderer>().enabled = false;
+            }
+        }
     }
 }

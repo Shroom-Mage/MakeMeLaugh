@@ -20,14 +20,19 @@ public class MoveBehavior : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            // Find a ray from the camera to the mouse
-            Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            // Cast the ray to the surface
-            RaycastHit hit;
-            if (Physics.Raycast(mouseRay, out hit))
+            // Ensure movement is being down from an able state
+            AnimatorClipInfo[] clipInfo = _animator.GetCurrentAnimatorClipInfo(0);
+            if (clipInfo[0].clip.name == "Idle" || clipInfo[0].clip.name == "Angry" || clipInfo[0].clip.name == "Walk")
             {
-                // Set the destination
-                _agent.SetDestination(hit.point);
+                // Find a ray from the camera to the mouse
+                Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+                // Cast the ray to the surface
+                RaycastHit hit;
+                if (Physics.Raycast(mouseRay, out hit))
+                {
+                    // Set the destination
+                    _agent.SetDestination(hit.point);
+                }
             }
         }
 

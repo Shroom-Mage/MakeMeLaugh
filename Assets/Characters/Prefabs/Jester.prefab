@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8515081223331677873}
-  - component: {fileID: 6101825344177723464}
   - component: {fileID: 3021781252789587793}
   - component: {fileID: 1388106303201239038}
   - component: {fileID: 2819525203931018729}
+  - component: {fileID: 6101825344177723464}
   - component: {fileID: 8849489969675050842}
   - component: {fileID: 5410101945953019621}
   - component: {fileID: 6630269710621001990}
@@ -40,19 +40,6 @@ Transform:
   - {fileID: 6725726706816350460}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6101825344177723464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4239583783999670440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cf7aefaca6ceed42a01b31a86b16b87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 844064405029692038}
 --- !u!195 &3021781252789587793
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -123,6 +110,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6101825344177723464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4239583783999670440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf7aefaca6ceed42a01b31a86b16b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 844064405029692038}
 --- !u!114 &8849489969675050842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c57f267773683f4980d48ac2e2b55a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 844064405029692038}
   _portrait: {fileID: 0}
   _neutralPortrait: {fileID: 21300000, guid: 324e145de7cce8d48b68cdf088a4c1d8, type: 3}
   _happyPortrait: {fileID: 21300000, guid: f1e363e2c929da0419004ad85ade7e5d, type: 3}
@@ -150,7 +151,6 @@ MonoBehaviour:
   _happyMaterial: {fileID: 2100000, guid: f78509356aa8ace4bbdfa2d3c466e731, type: 2}
   _sadMaterial: {fileID: 2100000, guid: 053e280426dd6cf418ba443575259bb8, type: 2}
   _rageMaterial: {fileID: 2100000, guid: 617a6cef79a37f645b56941e96424036, type: 2}
-  _animator: {fileID: 844064405029692038}
   _bgm: {fileID: 6630269710621001990}
 --- !u!114 &5410101945953019621
 MonoBehaviour:
@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1912c7fb476b8a547b147e22c959b1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 844064405029692038}
   _text: {fileID: 0}
   _voice: {fileID: 4412248493117257516}
   TypingDelay: 0.1
