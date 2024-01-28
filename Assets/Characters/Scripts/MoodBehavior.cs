@@ -17,6 +17,14 @@ public class MoodBehavior : MonoBehaviour
     private Sprite _overblown;
     [SerializeField]
     private Sprite _sad;
+    [SerializeField]
+    private Sprite _concerned;
+    [SerializeField]
+    private Sprite _angry;
+    [SerializeField]
+    private Sprite _mad;
+    [SerializeField]
+    private Sprite _empty;
 
     [SerializeField]
     private AudioSource _bgm;
@@ -27,7 +35,23 @@ public class MoodBehavior : MonoBehaviour
     {
         _mood = mood;
 
-        if (_mood > 15)
+        if (_mood > 35)
+        {
+            _portrait.sprite = _empty;
+        }
+        else if (_mood > 30)
+        {
+            _portrait.sprite = _mad;
+        }
+        else if (_mood > 25)
+        {
+            _portrait.sprite = _angry;
+        }
+        else if (_mood > 20)
+        {
+            _portrait.sprite = _concerned;
+        }
+        else if (_mood > 15)
         {
             _portrait.sprite = _sad;
         }
