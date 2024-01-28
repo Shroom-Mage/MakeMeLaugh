@@ -44,7 +44,7 @@ public class TextTypingBehavior : MonoBehaviour
             }
 
             // Play sound for letters
-            if (_message[_char] != ' ' && _message[_char] != '.' && _message[_char] != ',' && _message[_char] != '!' && _message[_char] != '?' && _message[_char] != '\'' && _message[_char] != '\"' && _message[_char] != '*')
+            if (_message[_char] != ' ' && _message[_char] != '\'' && _message[_char] != '\"' && _message[_char] != '*')
             {
                 _voice.pitch = 1 + Random.Range(-PitchDeviation, PitchDeviation);
                 _voice.Play();
