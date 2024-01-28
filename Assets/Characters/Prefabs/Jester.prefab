@@ -139,7 +139,11 @@ MonoBehaviour:
   _happy: {fileID: 21300000, guid: f1e363e2c929da0419004ad85ade7e5d, type: 3}
   _laughing: {fileID: 21300000, guid: 50991966fa7799743b9acab67ffce9d5, type: 3}
   _overblown: {fileID: 21300000, guid: abe36a17f516e33429a5538b60e0f88d, type: 3}
-  _sad: {fileID: 0}
+  _sad: {fileID: 21300000, guid: 3aa3b10ee6620204cb115de3aaf2cf33, type: 3}
+  _concerned: {fileID: 21300000, guid: 87ebb9623f87c0841b924a3835e40c60, type: 3}
+  _angry: {fileID: 21300000, guid: aa36b8a42b063f5428f01fd683446d83, type: 3}
+  _mad: {fileID: 21300000, guid: cfa69ecd406792044b4f6d5b789383e3, type: 3}
+  _empty: {fileID: 21300000, guid: aa0d8522ae39be54fb746b82c0187693, type: 3}
   _bgm: {fileID: 6630269710621001990}
 --- !u!114 &5410101945953019621
 MonoBehaviour:
