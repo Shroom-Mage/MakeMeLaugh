@@ -43,11 +43,11 @@ public class ToggleSound : MonoBehaviour
     {
         // Toggle the AudioListener component's volume based on the isVolumeOn flag
         AudioListener.volume = soundOn ? 0.5f : 0.0f;
+        Console.WriteLine("Sound toggle " + AudioListener.volume);
     }
 
     private void OnMouseDown()
     {
-        Console.WriteLine("Sound toggle sound");
         // Toggle the volume when the game object is clicked
         toggleSound();
     }

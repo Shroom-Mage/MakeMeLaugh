@@ -10,11 +10,18 @@ public class ChangeScene : MonoBehaviour
     [SerializeField]
     public String sceneToLoad;
 
+     public float pauseDuration = 1f;
+
     // Start is called before the first frame update
     public void LoadScene()
     {
         Console.WriteLine("Loading scene " + sceneToLoad);
-        SceneManager.LoadScene(sceneToLoad);
+
+        Invoke("ActuallyLoadScene",pauseDuration);
     }
 
+    private void ActuallyLoadScene() 
+    {
+        SceneManager.LoadScene(sceneToLoad);
+    }
 }
