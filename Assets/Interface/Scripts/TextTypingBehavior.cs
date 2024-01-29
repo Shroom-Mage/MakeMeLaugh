@@ -44,6 +44,11 @@ public class TextTypingBehavior : MonoBehaviour
             if (_message[_char] == '`')
             {
                 _char++;
+                // Ensure _char is still out of bounds.
+                if (_char < 0 || _char >= _message.Length)
+                    return;
+
+                // Read backquote code
                 switch (_message[_char])
                 {
                     case 'f':

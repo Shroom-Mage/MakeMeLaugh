@@ -40,7 +40,7 @@ public class InteractBehavior : MonoBehaviour
         }
 
         // Hide object if needed
-        if (_messageIndex != -1 && _messageIndex > HideAfterMessage)
+        if (HideAfterMessage != -1 && _messageIndex > HideAfterMessage)
         {
             GetComponentInChildren<MeshRenderer>().enabled = false;
         }
