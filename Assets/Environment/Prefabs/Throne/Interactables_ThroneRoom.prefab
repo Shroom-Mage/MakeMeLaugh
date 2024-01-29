@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: HideAfterMessage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4979947014809098525, guid: 580b7585405ab5142a1ee26f918d4d31, type: 3}
+      propertyPath: m_Size.z
+      value: 1.68
+      objectReference: {fileID: 0}
     - target: {fileID: 6933626593178253634, guid: 580b7585405ab5142a1ee26f918d4d31, type: 3}
       propertyPath: m_Name
       value: Interactable_Skull
@@ -374,7 +378,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6083781733037824787, guid: 3fb5801b07ac85e4b8c0d3b549071c3b, type: 3}
       propertyPath: m_Size.x
-      value: 1.95
+      value: 1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083781733037824787, guid: 3fb5801b07ac85e4b8c0d3b549071c3b, type: 3}
+      propertyPath: m_Size.z
+      value: 1.17
       objectReference: {fileID: 0}
     - target: {fileID: 8162928851540458316, guid: 3fb5801b07ac85e4b8c0d3b549071c3b, type: 3}
       propertyPath: m_Name
@@ -690,6 +698,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3529127043623109738}
     m_Modifications:
+    - target: {fileID: 6647702236788895483, guid: 41180ca2d20ce924a95bdbc7e6450c2c, type: 3}
+      propertyPath: m_Size.x
+      value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647702236788895483, guid: 41180ca2d20ce924a95bdbc7e6450c2c, type: 3}
+      propertyPath: m_Size.z
+      value: 1.14
+      objectReference: {fileID: 0}
     - target: {fileID: 8090737724972622198, guid: 41180ca2d20ce924a95bdbc7e6450c2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.317499
