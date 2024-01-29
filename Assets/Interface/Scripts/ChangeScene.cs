@@ -8,7 +8,7 @@ using UnityEngine;
 public class ChangeScene : MonoBehaviour
 {
     [SerializeField]
-    public String sceneToLoad;
+    public int sceneToLoad;
 
      public float pauseDuration = 1f;
 

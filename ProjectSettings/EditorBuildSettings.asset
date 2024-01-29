@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 6372de5c946c8d6ba935afc4d5660158
   - enabled: 1
-    path: Assets/Scenes/CastleScene_02.unity
-    guid: af72b8174fe75984b9046a46995a91a0
+    path: Assets/Scenes/VanScene.unity
+    guid: 0c07aa92e43adc749a47ee4aae35f853
   m_configObjects: {}

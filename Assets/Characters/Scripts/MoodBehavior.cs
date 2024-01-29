@@ -41,15 +41,36 @@ public class MoodBehavior : MonoBehaviour
     private Material _sadMaterial;
     [SerializeField]
     private Material _rageMaterial;
+    [SerializeField]
+    private Material _pie1Material;
+    [SerializeField]
+    private Material _pie2Material;
 
     [SerializeField]
     private AudioSource _bgm;
 
     private int _mood = 0;
 
+    private float _pieTimer = 0.0f;
+
+    private void Update()
+    {
+        _pieTimer -= Time.deltaTime;
+
+        if (_pieTimer > 0.0f && _pieTimer <= 20.0f)
+        {
+            _mesh.material = _pie2Material;
+        }
+    }
+
     public void SetMood(int mood)
     {
         _mood = mood;
+
+        _animator.SetFloat("Mood", _mood);
+
+        if (_pieTimer > 0.0f)
+            return;
 
         if (_mood >= 80)
         {
@@ -105,8 +126,6 @@ public class MoodBehavior : MonoBehaviour
             _mesh.material = _neutralMaterial;
             _bgm.pitch = 1.0f;
         }
-
-        _animator.SetFloat("Mood", _mood);
     }
 
     public int GetMood()
@@ -117,5 +136,11 @@ public class MoodBehavior : MonoBehaviour
     public void AlterMood(int change)
     {
         SetMood(GetMood() + change);
+    }
+
+    public void Pie()
+    {
+        _pieTimer = 30.0f;
+        _mesh.material = _pie1Material;
     }
 }

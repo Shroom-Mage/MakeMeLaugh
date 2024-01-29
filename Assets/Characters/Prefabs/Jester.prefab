@@ -151,6 +151,8 @@ MonoBehaviour:
   _happyMaterial: {fileID: 2100000, guid: f78509356aa8ace4bbdfa2d3c466e731, type: 2}
   _sadMaterial: {fileID: 2100000, guid: 053e280426dd6cf418ba443575259bb8, type: 2}
   _rageMaterial: {fileID: 2100000, guid: 617a6cef79a37f645b56941e96424036, type: 2}
+  _pie1Material: {fileID: 2100000, guid: 9d14c34e2ed4c2942aee6aa7eeb02e23, type: 2}
+  _pie2Material: {fileID: 2100000, guid: 211b7963570e0994f8ec246d2479747c, type: 2}
   _bgm: {fileID: 6630269710621001990}
 --- !u!114 &5410101945953019621
 MonoBehaviour:
@@ -179,7 +181,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bcc1aa160b489884e9c22f394af4418e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9d0d50b7b84dda04786d042a656cc386, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
