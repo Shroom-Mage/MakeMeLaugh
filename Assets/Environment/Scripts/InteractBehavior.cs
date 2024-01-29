@@ -10,7 +10,7 @@ public class InteractBehavior : MonoBehaviour
     private int _messageIndex = 0;
 
     public bool IsMultiUse = true;
-    public bool HideAfterUse = false;
+    public int HideAfterMessage = -1;
 
     [SerializeField]
     private AudioSource _audioSource;
@@ -19,9 +19,16 @@ public class InteractBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if ((!IsMultiUse && _isUsed) || _messageIndex >= Messages.Length)
+        if (!IsMultiUse && _isUsed)
             return;
 
+        if (Messages.Length == 0 || _messageIndex < 0 || _messageIndex >= Messages.Length)
+            return;
+
+        // Stop character's movement
+        TextTyping.GetComponent<MoveBehavior>().Stop();
+        
+        // Type next character
         TextTyping.BeginTyping(Messages[_messageIndex], _audioSource);
         if (_messageIndex < Messages.Length - 1)
         {
@@ -30,10 +37,12 @@ public class InteractBehavior : MonoBehaviour
         else
         {
             _isUsed = true;
-            if (HideAfterUse)
-            {
-                GetComponentInChildren<MeshRenderer>().enabled = false;
-            }
+        }
+
+        // Hide object if needed
+        if (_messageIndex != -1 && _messageIndex > HideAfterMessage)
+        {
+            GetComponentInChildren<MeshRenderer>().enabled = false;
         }
     }
 }

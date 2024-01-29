@@ -8,7 +8,7 @@ using UnityEngine;
 public class ChangeScene : MonoBehaviour
 {
     [SerializeField]
-    public String sceneToLoad;
+    public int sceneToLoad;
 
     // Start is called before the first frame update
     public void LoadScene()

@@ -62,6 +62,9 @@ public class TextTypingBehavior : MonoBehaviour
                         if (_soundEffect)
                             _soundEffect.Play();
                         break;
+                    case 'i':
+                        _mood.Pie();
+                        break;
                     case '1':
                     case '2':
                     case '3':
@@ -87,6 +90,10 @@ public class TextTypingBehavior : MonoBehaviour
                     _voice.pitch = 1.0f + Random.Range(-PitchDeviation, PitchDeviation) - (_mood.GetMood() >= 80 ? 0.5f : 0.0f);
                     _voice.Play();
                 }
+
+                // Alter casing according to mood
+                if (_mood.GetMood() >= 70)
+                    _message.ToUpper();
 
                 // Print next character
                 _text.text += _message[_char];

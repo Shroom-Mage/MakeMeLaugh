@@ -39,4 +39,9 @@ public class MoveBehavior : MonoBehaviour
         // Set animation
         _animator.SetFloat("Movement", _agent.velocity.magnitude / _agent.speed);
     }
+
+    public void Stop()
+    {
+        _agent.ResetPath();
+    }
 }

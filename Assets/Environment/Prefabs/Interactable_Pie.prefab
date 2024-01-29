@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 1.59
       objectReference: {fileID: 0}
+    - target: {fileID: 2025103059117110938, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c2a3c1510223fd43b7804695d267b72, type: 3}
     - target: {fileID: 3770590310722988936, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_Name
       value: Interactable_Pie
@@ -132,15 +136,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: IsMultiUse
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: HideAfterUse
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: HideAfterMessage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[0]
@@ -148,7 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[1]
-      value: '`fClassic. Ok. Go ahead. At my face. God'
+      value: '`s`f`iClassic. Ok. Go ahead. At my face. God.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Messages.Array.data[2]
+      value: It's pie time we move on.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

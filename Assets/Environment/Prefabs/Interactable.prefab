@@ -47,7 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextTyping: {fileID: 0}
-  Message: 
+  Messages: []
+  IsMultiUse: 1
+  HideAfterMessage: -1
   _audioSource: {fileID: 2025103059117110938}
 --- !u!65 &1258386811782007767
 BoxCollider:
