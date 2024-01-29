@@ -19,7 +19,7 @@ public class InteractBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!IsMultiUse && _isUsed)
+        if ((!IsMultiUse && _isUsed) || _messageIndex >= Messages.Length)
             return;
 
         TextTyping.BeginTyping(Messages[_messageIndex], _audioSource);
