@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class StopAllSources : MonoBehaviour
 {
+    [SerializeField]
+    public bool stopOnStart = false;
+
+    void Start()
+    {
+        if(stopOnStart)
+        {
+            StopAllAudioSources();
+        }
+    }
+
     public void StopAllAudioSources()
     {
         // Find all AudioSources in the scene
