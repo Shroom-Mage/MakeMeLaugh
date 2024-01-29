@@ -186,11 +186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[2]
-      value: '`5...Oh god. Oh no. I''m gonna- `fBLARGH!`0'
+      value: '`0...Oh god. Oh no. I''m gonna- `fBLARGH!'
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[3]
-      value: "...I don\u2019t think that was edible\u2026 "
+      value: "`1...I don\u2019t think that was edible\u2026 "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

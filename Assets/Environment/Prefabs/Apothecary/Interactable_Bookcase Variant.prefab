@@ -78,11 +78,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[2]
-      value: "\u201CBecause he was fooling everyone.\u201D This is terrible. "
+      value: "`4\u201CBecause he was fooling everyone.\u201D This is terrible. "
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[3]
-      value: "I don\u2019t want to read another\u2026.!"
+      value: "`2I don\u2019t want to read another\u2026.!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

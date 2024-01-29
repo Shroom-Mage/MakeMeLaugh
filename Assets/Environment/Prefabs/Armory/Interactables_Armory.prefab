@@ -170,6 +170,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4114215592003663811}
     m_Modifications:
+    - target: {fileID: 1514190310909732606, guid: 2a95b83bc7744cd4da2d873b31e201e0, type: 3}
+      propertyPath: HideAfterMessage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514190310909732606, guid: 2a95b83bc7744cd4da2d873b31e201e0, type: 3}
+      propertyPath: Messages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514190310909732606, guid: 2a95b83bc7744cd4da2d873b31e201e0, type: 3}
+      propertyPath: Messages.Array.data[3]
+      value: Nuh uh. No way
+      objectReference: {fileID: 0}
     - target: {fileID: 5153084392242148599, guid: 2a95b83bc7744cd4da2d873b31e201e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.85
@@ -461,6 +473,10 @@ PrefabInstance:
     - target: {fileID: 827272447973978036, guid: b4d09e3ccfadce64e91561d8b7cd046d, type: 3}
       propertyPath: m_Name
       value: Interactable_WeaponStand
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825138039050818159, guid: b4d09e3ccfadce64e91561d8b7cd046d, type: 3}
+      propertyPath: Messages.Array.size
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

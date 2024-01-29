@@ -78,11 +78,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[1]
-      value: "Is this just water\u2026? Harmless right? *sips* ThisIsLukewarmBajaBlast."
+      value: "`3Is this just water\u2026? Harmless right? *sips* ThisIsLukewarmBajaBlast."
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[2]
-      value: "\u2026 and what appears to be dry ice. "
+      value: "`5\u2026 and what appears to be dry ice. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

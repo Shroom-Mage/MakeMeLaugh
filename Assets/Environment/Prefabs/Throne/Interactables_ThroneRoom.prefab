@@ -112,6 +112,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3529127043623109738}
     m_Modifications:
+    - target: {fileID: 1174833933077009523, guid: cecdf67d5fe80bb4db20527c93c9f487, type: 3}
+      propertyPath: HideAfterMessage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4813727738555680378, guid: cecdf67d5fe80bb4db20527c93c9f487, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.2875013
@@ -174,6 +178,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3529127043623109738}
     m_Modifications:
+    - target: {fileID: 4293394311529022617, guid: 580b7585405ab5142a1ee26f918d4d31, type: 3}
+      propertyPath: HideAfterMessage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6933626593178253634, guid: 580b7585405ab5142a1ee26f918d4d31, type: 3}
       propertyPath: m_Name
       value: Interactable_Skull
@@ -364,10 +372,6 @@ PrefabInstance:
       propertyPath: Messages.Array.size
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 3090752805461460631, guid: 3fb5801b07ac85e4b8c0d3b549071c3b, type: 3}
-      propertyPath: Messages.Array.data[2]
-      value: It's pie time I move on...
-      objectReference: {fileID: 0}
     - target: {fileID: 6083781733037824787, guid: 3fb5801b07ac85e4b8c0d3b549071c3b, type: 3}
       propertyPath: m_Size.x
       value: 1.95
@@ -496,6 +500,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3529127043623109738}
     m_Modifications:
+    - target: {fileID: 2167529872617284162, guid: 2f7f2811dae84504aa7b0e28779c277c, type: 3}
+      propertyPath: HideAfterMessage
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5023940382399864729, guid: 2f7f2811dae84504aa7b0e28779c277c, type: 3}
       propertyPath: m_Name
       value: Interactable_DrinkHorn

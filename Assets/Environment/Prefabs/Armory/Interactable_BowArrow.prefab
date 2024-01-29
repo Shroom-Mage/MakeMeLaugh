@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[0]
-      value: There aren't any targets in here... `1Nope, nope. Whatever you had in
+      value: There aren't any targets in here... `2Nope, nope. Whatever you had in
         mind, forget it.
       objectReference: {fileID: 0}
     m_RemovedComponents: []

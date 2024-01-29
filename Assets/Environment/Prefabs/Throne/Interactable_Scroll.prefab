@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[0]
-      value: "It reads, \u201CWhat do you get when you boil a clown? \u2026 Laughing
+      value: "`3It reads, \u201CWhat do you get when you boil a clown? \u2026 Laughing
         stock.\u201D \u2026 "
       objectReference: {fileID: 0}
     m_RemovedComponents: []

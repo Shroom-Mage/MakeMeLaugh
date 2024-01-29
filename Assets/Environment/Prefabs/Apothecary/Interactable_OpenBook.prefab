@@ -70,8 +70,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[0]
-      value: "Recipes for spells, potions\u2026 wonder if there\u2019s one that could
-        get me out of here.."
+      value: "`1Recipes for spells, potions\u2026 wonder if there\u2019s one that
+        could get me out of here.."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

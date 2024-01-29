@@ -86,24 +86,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[1]
-      value: "*bonks self on the head* Oh sorry. You didn\u2019t ask first.  "
+      value: '`5*bonks on the head* Ow. I really didnt want to do that.'
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[2]
-      value: '*bonks again* *weeps*'
+      value: '`5*bonks again* *weeps*'
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[3]
-      value: "*bonks\u2026again* WHY "
+      value: "`5*bonks\u2026again* WHY "
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[4]
-      value: "*bonks\u2026.?* \u2026Do you relish in my pain? Do you enjoy the physical,
-        emotional, and mental onslaught you put me through? "
+      value: "`5*bonks\u2026.?* \u2026Do you relish in my pain? Do you enjoy the
+        physical, emotional, and mental onslaught you put me through? "
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[5]
-      value: "*...bonks\u2026* [no words just deadinside react] "
+      value: "`0*...bonks\u2026* [no words just deadinside react] "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
