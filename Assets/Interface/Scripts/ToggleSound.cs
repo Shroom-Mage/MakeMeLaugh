@@ -35,7 +35,8 @@ public class ToggleSound : MonoBehaviour
         PlayerPrefs.SetInt("IsVolumeOn", soundOn ? 1 : 0);   
 
         imageComp.image.sprite = soundOn ? onImage : offImage;
-        
+
+        UpdateVolume();   
     }
 
     private void UpdateVolume()
