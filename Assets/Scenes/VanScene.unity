@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3cef229daf035854499dc513c097f50c, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -250,11 +250,39 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 33540928686916865, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 169547415386169331, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 344303841274015817, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
     - target: {fileID: 391394783964488179, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
     - target: {fileID: 812679844143970958, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 977692965538278530, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 1144981946003445080, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 1499166342121503810, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 1920521272232541172, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
@@ -278,11 +306,63 @@ PrefabInstance:
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
+    - target: {fileID: 3816814542970991142, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
     - target: {fileID: 4132365046704660774, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
+    - target: {fileID: 4416984777645866656, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 4549795600131793469, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 4560812451402662156, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 4793477790303312867, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 4853906865465456744, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 5302381128531364611, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 5541520833452020455, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 5581753786126356538, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 5596970631680798518, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
     - target: {fileID: 5964750370553599288, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 6169282315532327824, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 6529073961530547572, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 7604010250829389719, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
@@ -327,6 +407,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8113399396373751885, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 8208995537195157374, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 8295820779301793036, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
+      propertyPath: TextTyping
+      value: 
+      objectReference: {fileID: 862973039}
+    - target: {fileID: 9030028269337934615, guid: f74809d29a6f2084b87314ae7b8df775, type: 3}
       propertyPath: TextTyping
       value: 
       objectReference: {fileID: 862973039}
@@ -648,67 +740,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1996260462
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.9448133
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.5549725
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 260392259752108279, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 770406106205753125, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: m_Name
-      value: Interactable_Banana
-      objectReference: {fileID: 0}
-    - target: {fileID: 5844840544872051454, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
-      propertyPath: TextTyping
-      value: 
-      objectReference: {fileID: 862973039}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 618ba779daad2a24c9bee1d160197a3d, type: 3}
 --- !u!114 &2124608430 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8757156682682181887, guid: 8cb4ce49c243c9246a578f4454424784, type: 3}
@@ -729,4 +760,3 @@ SceneRoots:
   - {fileID: 649337813}
   - {fileID: 1113024804}
   - {fileID: 946595995}
-  - {fileID: 1996260462}
