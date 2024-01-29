@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2093466961135635489
+--- !u!1001 &7632501612381689855
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14,19 +14,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3770590310722988936, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_Name
-      value: Interactable_Queen Variant
+      value: Interactable_King
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.51
+      value: 2.357501
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.198067
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.37
+      value: -0.9159358
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34,15 +34,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.data[0]
-      value: "The Queen\u2019s throne. I can\u2019t sit here. "
+      value: "The King\u2019s throne. I mean I kinda want to sit here but I can't. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

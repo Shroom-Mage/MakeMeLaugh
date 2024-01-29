@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &214784987609452199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 260392259752108279}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.0761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.0761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.0761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+      propertyPath: m_Name
+      value: Banana_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+--- !u!4 &392280131847137612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 337127dd67911ae4cb4a3924e04d6fd7, type: 3}
+  m_PrefabInstance: {fileID: 214784987609452199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4531425709369058477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2025103059117110938, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1db23d8d5254fcc4e8d3bdffb88a157e, type: 3}
+    - target: {fileID: 3770590310722988936, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_Name
+      value: Interactable_Banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Message
+      value: '`s`fWoah! `0A banana peel? Who put this here.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: IsMultiUse
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: HideAfterUse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Messages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Messages.Array.data[0]
+      value: "Oh! A banana. \u2026.Who left a banana here? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Messages.Array.data[1]
+      value: "I guess I\u2019ll. Do that. Slip on it. Yep"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: Messages.Array.data[2]
+      value: "`fOww\u2026 Was that entirely necessary!? "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 392280131847137612}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+--- !u!4 &260392259752108279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+  m_PrefabInstance: {fileID: 4531425709369058477}
+  m_PrefabAsset: {fileID: 0}
