@@ -373,16 +373,8 @@ PrefabInstance:
       value: Interactable_BowArrow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7571525880557468383, guid: 312324f795f00ae4491276a8fb36e26f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7571525880557468383, guid: 312324f795f00ae4491276a8fb36e26f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 7571525880557468383, guid: 312324f795f00ae4491276a8fb36e26f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.15
       objectReference: {fileID: 0}
     - target: {fileID: 7571525880557468383, guid: 312324f795f00ae4491276a8fb36e26f, type: 3}
       propertyPath: m_LocalRotation.w

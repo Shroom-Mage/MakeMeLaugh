@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1258386811782007767, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258386811782007767, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: m_Size.z
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 3770590310722988936, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_Name
       value: Interactable_DrinkHorn
@@ -59,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 4431474747935212634, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: HideAfterMessage
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.size

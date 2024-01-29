@@ -109,10 +109,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 7179687465653413590}
     m_Modifications:
     - target: {fileID: 3694676392364996217, guid: 52f8a50c03610344280a17bb3a63d3e1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.128206
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694676392364996217, guid: 52f8a50c03610344280a17bb3a63d3e1, type: 3}
       propertyPath: m_LocalPosition.y
       value: -9.923427
       objectReference: {fileID: 0}
@@ -331,10 +327,6 @@ PrefabInstance:
       value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 4941121471538519239, guid: a6772d14be44b4b489ea9de5ce9256c9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 4941121471538519239, guid: a6772d14be44b4b489ea9de5ce9256c9, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9989614
       objectReference: {fileID: 0}
@@ -387,10 +379,6 @@ PrefabInstance:
     - target: {fileID: 5183644754027960594, guid: edee163633a43e2408f18d7476ae6253, type: 3}
       propertyPath: m_Name
       value: Interactable_Stockade
-      objectReference: {fileID: 0}
-    - target: {fileID: 5682434784547174080, guid: edee163633a43e2408f18d7476ae6253, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16.122206
       objectReference: {fileID: 0}
     - target: {fileID: 5682434784547174080, guid: edee163633a43e2408f18d7476ae6253, type: 3}
       propertyPath: m_LocalPosition.y
@@ -446,10 +434,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7179687465653413590}
     m_Modifications:
-    - target: {fileID: 1624801964351241842, guid: 27cc734e7332f944bb5fb042b04b4397, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16.618206
-      objectReference: {fileID: 0}
     - target: {fileID: 1624801964351241842, guid: 27cc734e7332f944bb5fb042b04b4397, type: 3}
       propertyPath: m_LocalPosition.y
       value: -9.923427

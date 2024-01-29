@@ -65,6 +65,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
+      propertyPath: HideAfterMessage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070397955555055187, guid: 8b3f86b3e14b4f143a6ce9cc5a4b813d, type: 3}
       propertyPath: Messages.Array.size
       value: 1
       objectReference: {fileID: 0}
