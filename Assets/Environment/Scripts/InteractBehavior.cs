@@ -30,6 +30,14 @@ public class InteractBehavior : MonoBehaviour
         
         // Type next character
         TextTyping.BeginTyping(Messages[_messageIndex], _audioSource);
+
+        // Hide object if needed
+        if (HideAfterMessage != -1 && _messageIndex >= HideAfterMessage)
+        {
+            GetComponentInChildren<MeshRenderer>().enabled = false;
+        }
+
+        // Go to next character
         if (_messageIndex < Messages.Length - 1)
         {
             _messageIndex++;
@@ -37,12 +45,6 @@ public class InteractBehavior : MonoBehaviour
         else
         {
             _isUsed = true;
-        }
-
-        // Hide object if needed
-        if (HideAfterMessage != -1 && _messageIndex > HideAfterMessage)
-        {
-            GetComponentInChildren<MeshRenderer>().enabled = false;
         }
     }
 }
